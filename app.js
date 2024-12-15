@@ -40,7 +40,7 @@ function sendMassage() {
     headers: myHeaders,
     body: raw,
   };
-  fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyC5fPJWunZDHiByXIJCJj3BNSFcu7qyFkA", requestOptions)
+  fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API", requestOptions)
     .then((response) => response.json())
     .then((result) => {
       
